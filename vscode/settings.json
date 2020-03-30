@@ -1,0 +1,39 @@
+{
+    "editor.formatOnType": true,
+    "window.zoomLevel": -1,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.fontFamily": "Menlo",
+    "editor.fontLigatures": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "python.jediEnabled": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "debug.console.fontSize": 14,
+    "terminal.integrated.fontFamily": "hackgen",
+    "terminal.integrated.fontSize": 14,
+    "java.home": "/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home",
+    "[java]": {
+        
+    },
+    "editor.fontSize": 16,
+    "workbench.startupEditor": "welcomePage",
+    "glassit.alpha": 100,
+    "workbench.colorCustomizations": {},
+    "workbench.colorTheme": "Solarized Dark",
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.activityBar.visible": true
+    
+}
