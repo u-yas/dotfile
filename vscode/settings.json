@@ -34,6 +34,8 @@
     "workbench.colorTheme": "Solarized Dark",
     "files.autoSave": "afterDelay",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.activityBar.visible": true
+    "workbench.activityBar.visible": true,
+    "sync.gist": "8732671b713cc4c967bff7d6c0c407af",
+    "sync.forceUpload": true
     
 }
