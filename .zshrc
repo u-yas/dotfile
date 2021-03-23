@@ -1,4 +1,4 @@
-alias ls='ls --color'
+alias ls='ls -G'
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
@@ -77,6 +77,12 @@ zinit creinstall %HOME/my_completions
 # 履歴に同じ行が追加されるのを避ける
 setopt HIST_IGNORE_DUPS
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvmexport PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+PATH=${JAVA_HOME}/bin:${PATH}
+
+export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+alias eslint='./node_modules/eslint/bin/eslint.js'
