@@ -2,10 +2,10 @@
 # セットアップスクリプト for linux
 
 # zsh インストール
-sudo dnf install -y zsh;
+sudo apt install -y zsh;
 chsh -s /usr/bin/zsh;
 # git download
-sudo dnf install -y git;
+sudo apt install -y git;
 
 # cargo install 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh;
@@ -25,7 +25,7 @@ nvm use --lts;
 npm install -g firebase-tools;
 npm install -g vercel;
 
-sudo dnf install -y alacritty;
+sudo apt install -y alacritty;
 # zinit download
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)";
 

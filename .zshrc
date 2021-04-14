@@ -154,6 +154,16 @@ zle -N zle-line-finish
 zle -N zle-keymap-select
 
 
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvmexport PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+PATH=${JAVA_HOME}/bin:${PATH}
+
+export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+
 alias yd="yarn dev"
 alias yb="yarn build"
 alias ya="yarn add"
