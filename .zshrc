@@ -8,6 +8,9 @@ alias ys="yarn start"
 alias y='yarn'
 alias yst='yarn storybook'
 
+alias nr='npm run'
+alias ni='npm i'
+
 export LSCOLORS=Exfxcxdxbxegedabagacad
 alias ls='ls -G'
 
