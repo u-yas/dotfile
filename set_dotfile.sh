@@ -15,6 +15,5 @@ case ${OSTYPE} in
         ln -s ./linux/alacritty.yml $HOME/.config/alacritty/alacritty.yml;
         source $HOME/.zshrc;
         source $HOME/.zsh_profile;
-
         ;;
 esac
