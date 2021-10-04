@@ -1,0 +1,8 @@
+[user]
+	name = u-yas
+	email = yuya3.21998@gmail.com
+	signingkey = D168EE9C42D4CA50
+[core]
+	editor = code --wait
+[commit]
+	gpgsign = true
