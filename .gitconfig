@@ -6,3 +6,5 @@
 	editor = code --wait
 [commit]
 	gpgsign = true
+[gpg]
+	program = gpg
