@@ -7,7 +7,7 @@ y[user]
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg
+	program = gpg2
 [pull]
 	rebase = false
 	ff = only
