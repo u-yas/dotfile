@@ -1,7 +1,7 @@
 [user]
 	name = u-yas
 	email = yuya3.21998@gmail.com
-	signingkey = D168EE9C42D4CA50
+	signingkey = 3FAF37A3B59A6A75
 [core]
 	editor = code --wait
 [commit]
