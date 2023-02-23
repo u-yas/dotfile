@@ -4,9 +4,10 @@ Host github.com
   PKCS11Provider /Library/OpenSC/lib/opensc-pkcs11.so
   IdentitiesOnly yes
 Host desktop
+  User inuneko
   # ifconfig | grep 192.168. で調べる
   HostName "192.168.10.103"
   # PKCS11Provider /usr/local/opt/opensc/lib/opensc-pkcs11.so
   # PKCS11Provider/usr/lib/x86_64-linux-gnu/opensc-pkcs11.so
   PKCS11Provider /Library/OpenSC/lib/opensc-pkcs11.so
-  IdentitiesOnly yes
+  # IdentitiesOnly yes
